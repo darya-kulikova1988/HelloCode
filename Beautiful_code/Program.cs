@@ -11,3 +11,9 @@ int screenWidthPosition = (Console.WindowWidth - caption.Length) / 2;  // left
 int screenHeightPosition = Console.WindowHeight / 2; // top
 
 DrawText(caption, screenWidthPosition, screenHeightPosition);
+
+DrawText(
+    text: caption,
+    left: screenWidthPosition,
+    top: screenHeightPosition
+    );
